@@ -1,0 +1,730 @@
+
+body {
+	background-color:#18212a;
+	color:white;
+}
+
+.crystalButtons {
+	margin-top:10px;
+}
+
+
+button:focus,button:active {
+   outline: none !important;
+}
+
+h1 {
+	font-family: 'New Rocker', cursive;
+	margin-bottom:20px;
+}
+
+
+
+li {
+
+	font-size:18px;
+	/* font-family: 'Cormorant Garamond', serif; */
+	font-family: 'Geo', sans-serif;
+	line-height:;
+
+}
+
+ul {
+	/* position:relative;
+	top:-165px;
+	left:50px; */
+	margin-top:-165px;
+	margin-left:50px;
+	margin-bottom:60px;
+}
+
+/* Crystals */
+/* #blue, #green, #red, #yellow, #reset {
+	width:272px;
+} */
+
+#targetScore, #yourScore, #winCount, #lossCount {
+	margin-top:-10px;
+}
+
+
+
+/* Instructions button */
+button {
+	
+	color:#18212a;
+}
+
+.instructions {
+	background-color:#fab100;
+	border-radius:5px;
+	border:none;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px; 
+	margin-bottom:20px;
+	 font-family: 'Geo', sans-serif; 
+	/* font-family: 'New Rocker', cursive; */
+
+}
+
+
+
+.instructions:hover {
+	background-color:transparent;
+	border-style:solid;
+	border-width:1px;
+	border-color:#fab100;
+	color:#fab100;
+
+}
+
+.panel-default > .panel-heading-custom {
+	background:transparent; 
+	border:none;
+	color: #fff; 
+	margin-top:-100px;
+}
+
+.panel-default {
+	background-color:#18212a;
+	border:none;
+}
+
+
+.panel-heading {
+	background-color:none;
+}
+
+.panel-body {
+	/* background-color:#18212a; */
+	background-color:transparent;
+}
+
+.mediumSizeDirections {
+	display:none;
+}
+
+.smallSizeDirections {
+	display:none;
+}
+
+.smallestSizeDirections {
+	display:none;
+}
+
+.evenSmallerDirections {
+	display:none;
+}
+
+.reallySmallDirections {
+	display:none;
+}
+
+.extraSmallDirections {
+	display:none;
+}
+
+.extraExtraSmallDirections {
+	display:none;
+}
+
+.extraExtraExtraSmallDirections {
+	display:none;
+}
+
+.elevenDirections {
+	display:none;
+}
+
+.twelveDirections {
+	display:none;
+}
+
+.thirteenDirections {
+	display:none;
+}
+
+.fourteenDirections {
+	display:none;
+}
+
+
+/* 	background-color:red;
+	height:125px;
+	width:263px;
+	margin-left:50px;
+} */
+
+
+
+
+
+/* 
+ .fakeBackground {
+	background-color:grey;
+	height:210px;
+	width:719px;
+}  */
+
+
+
+/* Media Queries */ 
+
+@media screen and (max-width:1199px) {
+	
+	.fullSizeDirections {
+		display:none;
+	}
+
+	.mediumSizeDirections {
+		display:block;
+	}
+
+	ul {
+		margin-top:-175px;
+		margin-left:20px;
+	}
+
+	.scoreBoardOne, .scoreBoardTwo, .scoreBoardThree, .scoreBoardFour {
+		margin-top:-12px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:10px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:10px;
+	}
+
+}
+
+@media screen and (max-width:991px) {
+	
+		
+	.mediumSizeDirections {
+		display:none;
+	}
+
+	.smallSizeDirections {
+		display:block;
+		margin-bottom:15px;
+	}
+
+	ul {
+		margin-top:-235px;
+		margin-bottom:80px;
+		width:670px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:30px;
+		font-size:16px;
+	}
+
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:25px;
+		font-size:16px;
+	}
+
+	.crystalButtons {
+		margin-top:15px;
+	}
+	
+}
+
+@media screen and (max-width:767px){
+
+	.scoreBoardThree {
+		margin-top:20px;
+	} 
+
+	.scoreBoardFour {
+		margin-top:20px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:-30px;
+		font-size:20px;
+	}
+
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:-15px;
+		font-size:20px;
+	}
+
+
+}
+
+@media screen and (max-width:765px) {
+
+	ul {
+		width:650px;
+	}
+
+}
+
+
+@media screen and (max-width:750px) {
+
+	ul {
+		width:630px;
+	}
+
+}
+
+
+@media screen and (max-width:730px) {
+
+	.smallSizeDirections {
+		display:none;
+	}
+
+	.evenSmallerDirections {
+		display:block;
+	}
+
+	ul {
+		margin-top:-230px;
+		width:600px;
+	}
+
+}
+
+@media screen and (max-width:700px) {
+
+	.smallSizeDirections {
+		display:none;
+	}
+
+	.evenSmallerDirections {
+		display:block;
+	}
+
+	ul {
+		margin-top:-225px;
+		width:600px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:-20px;
+		font-size:20px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:-15px;
+		font-size:20px;
+	}
+
+}
+
+@media screen and (max-width:680px) {
+
+	.smallSizeDirections {
+		display:none;
+	}
+
+	.evenSmallerDirections {
+		display:none;
+	}
+
+	.reallySmallDirections {
+		display:block;
+	}
+
+	ul {
+		margin-top:-235px;
+		width:560px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:-10px;
+		font-size:20px;
+	}
+
+}
+
+@media screen and (max-width:660px) {
+
+	ul {
+		margin-top:-230px;
+		width:560px;
+	}
+
+	.smallestSizeDirections {
+		display:none;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:-5px;
+		font-size:20px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:-15px;
+		font-size:20px;
+	}
+
+}
+
+@media screen and (max-width:640px) {
+
+	ul {
+		margin-top:-230px;
+		width:560px;
+	}
+
+	.smallestSizeDirections {
+	display:none;
+}
+
+}
+
+@media screen and (max-width:630px) {
+
+	ul {
+		margin-top:-225px;
+		margin-left:5px;
+		margin-bottom:;
+		width:560px;
+	}
+
+	.smallestSizeDirections {
+		display:none;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:-10px;
+		font-size:20px;
+	}
+
+
+
+}
+
+@media screen and (max-width:620px) {
+
+	ul {
+		margin-top:-220px;
+		margin-left:5px;
+		width:540px;
+	}
+
+	.smallestSizeDirections {
+		display:none;
+	}
+
+
+
+}
+
+@media screen and (max-width:610px) {
+
+	.smallestSizeDirections {
+
+	}
+
+}
+
+@media screen and (max-width:600px) {
+
+.reallySmallDirections {
+		display:none;
+	}
+
+.extraSmallDirections {
+	display:none;
+}
+
+.extraExtraSmallDirections {
+	display:block;
+	margin-bottom:115px;
+}
+
+.smallestSizeDirections {
+	display:none;
+}
+
+ul {
+		margin-top:-380px;
+		margin-left:5px;
+		width:500px;
+	}
+}
+
+@media screen and (max-width:580px) {
+
+	ul {
+		width:460px;
+		margin-top:-300px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:-5px;
+		font-size:20px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:0px;
+		font-size:20px;
+	}
+
+	.extraExtraSmallDirections {
+		display:none;
+	}
+
+	.extraExtraExtraSmallDirections {
+		display:block;
+	}
+
+	.smallestSizeDirections {
+		display:none;
+	}
+
+	.elevenDirections {
+		display:none;
+	}
+
+}
+
+@media screen and (max-width:560px) {
+
+	ul {
+		width:450px;
+		margin-top:-335px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:0px;
+		font-size:20px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:5px;
+		font-size:20px;
+	}
+
+	.smallestSizeDirections {
+		display:none;
+	}
+
+	.extraExtraExtraSmallDirections {
+		display:none;
+	}
+
+	.elevenDirections {
+		display:block;
+	}
+}
+
+@media screen and (max-width:540px) {
+
+	ul {
+		margin-top:-330px;
+	}
+
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:7px;
+		font-size:20px;
+	}
+
+		#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:8px;
+		font-size:20px;
+	}
+
+}
+
+@media screen and (max-width:520px) {
+
+	ul {
+		margin-top:-320px;
+		width:440px;
+	}
+
+
+
+}
+
+@media screen and (max-width:500px) {
+	.elevenDirections {
+		display:none;
+	}
+
+	.twelveDirections {
+		display:block;
+	}
+
+	ul {
+		margin-top:-335px;
+		width:420px;
+	}
+
+}
+
+@media screen and (max-width:480px) {
+	ul {
+		margin-top:-360px;
+		margin-bottom:90px;
+		width:380px;
+	}
+
+	.twelveDirections {
+		display:none;
+	}
+
+	.thirteenDirections {
+		display:block;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:17px;
+		font-size:16px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:18px;
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:460px) {
+	ul {
+		margin-top:-360px;
+		width:360px;
+	}
+}
+
+@media screen and (max-width:450px) {
+	ul {
+		margin-top:-350px;
+		width:360px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:22px;
+		font-size:14px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:20px;
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:440px) {
+
+	ul {
+		margin-top:-380px;
+		width:340px;
+	}
+
+	.thirteenDirections {
+		display:none;
+	}
+
+	.fourteenDirections {
+		display:block;
+	}
+}
+
+@media screen and (max-width:420px) {
+	ul {
+		margin-top:-370px;
+	}
+
+	#targetScore, #yourScore, #winCount, #lossCount {
+		position:relative;
+		top:24px;
+		font-size:14px;
+	}
+
+	#targetTitle, #yourTitle, #winTitle, #lossTitle {
+		position:relative;
+		top:26px;
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:410px) {
+	ul {
+		margin-top:-360px;
+	}
+}
+
+
+@media screen and (max-width:400px) {
+
+	.smallSizeDirections {
+		display:none;
+	}
+
+	.smallestSizeDirections {
+		display:block;
+	}
+
+	.evenSmallerDirections {
+		display:none;
+	}
+
+	.reallySmallDirections {
+		display:none;
+	}	
+
+	.extraSmallDirections {
+		display:none;
+	}
+
+	.fourteenDirections {
+		display:none;
+	}
+
+	ul {
+		margin-top:-405px;
+		margin-left:10px;
+		width:320px;
+	}
+
+	/* .fakeBackground {
+		width:355px;
+		height:380px;
+
+	} */
+
+
+}
+
+
+
+
+
+
+
+

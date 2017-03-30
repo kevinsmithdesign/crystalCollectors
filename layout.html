@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Crystal Collector</title>
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|New+Rocker" rel="stylesheet">
+
+
+		<link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		
+
+	</head>
+	<body>
+		
+		<div class="container">
+			
+			<!-- Crystal Collector Jumbotron -->
+			<!-- <div class="jumbotron" style="background-color:#405260; color: white;">
+				<div class="container"> -->
+					<h1 class="text-center">Crystal Collector</h1>
+			<!--
+				</div>
+			</div> 
+			-->
+
+
+			<!-- Instructions -->
+			
+
+				<!-- Instructions Container -->
+			
+					
+				
+
+							<!-- <center><button class="instructions">Instructions</button></center> -->
+						
+							<img src="images/directionsTwo.svg" class="fullSizeDirections"> 
+
+							<img src="images/directionsThree.svg" class="mediumSizeDirections">
+
+							<img src="images/directionsFour.svg" class="smallSizeDirections">
+							
+							<img src="images/directionsSix.svg" class="evenSmallerDirections">
+
+							<img src="images/directionsSeven.svg" class="reallySmallDirections">
+
+							<img src="images/directionsEight.svg" class="extraSmallDirections">
+
+							<img src="images/directionsNine.svg" class="extraExtraSmallDirections">
+
+							<img src="images/directionsTen.svg" class="extraExtraExtraSmallDirections">
+
+							<img src="images/directionsEleven.svg" class="elevenDirections">
+
+							<img src="images/directionsTwelve.svg" class="twelveDirections">
+
+							<img src="images/directionsThirteen.svg" class="thirteenDirections">
+
+							<img src="images/directionsFourteen.svg" class="fourteenDirections">
+
+
+
+
+
+
+							<img src="images/directionsFive.svg" class="smallestSizeDirections">
+
+
+
+							<!-- <div class="fakeBackground"></div> -->
+
+							
+							<ul>
+							<li>You will be given a random number at the start of the game.</li> 
+
+							<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+
+							<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+
+							<li>The value of each crystal is hidden from you until you click on it.</li>
+
+							<li>Each time when the game starts, the game will change the values of each crystal.</li>
+							</ul>
+							</div>
+							</div>
+							
+				
+				
+	
+
+			<!-- Scores and Crystals  -->
+			<div class="container">
+			<div class="row">
+				
+				<!-- Target Score -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+					<img src="images/scoreBoards.svg" class="scoreBoardOne">
+					<div class="panel panel-default">
+						<div class="panel-heading panel-heading-custom"> 
+
+							<h3 class="panel-title text-center" id="targetTitle">Target Score</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="targetScore"></h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Your Score -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<img src="images/scoreBoards.svg" class="scoreBoardTwo">
+					
+					 <div class="panel panel-default">
+						<div class="panel-heading panel-heading-custom"> 
+							<h3 class="panel-title text-center" id="yourTitle">Your Score</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="yourScore"></h3>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Win Count -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<img src="images/scoreBoards.svg" class="scoreBoardThree">
+
+					<div class="panel panel-default">
+						<div class="panel-heading panel-heading-custom">
+							<h3 class="panel-title text-center" id="winTitle">Win Count</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="winCount">0</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Loss Count -->
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+				<img src="images/scoreBoards.svg" class="scoreBoardFour">
+					
+					<div class="panel panel-default">
+						<div class="panel-heading panel-heading-custom">
+							<h3 class="panel-title text-center" id="lossTitle">Loss Count</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="lossCount">0</h3>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Crystals -->
+				<!-- <div class="col-lg-12">
+
+					<!-- <div class="panel panel-default">
+						<div class="panel-heading panel-heading-custom">
+							<h3 class="panel-title text-center">Crystal Selection</h3>
+						</div>
+						<div class="panel-body text-center"> 
+						<center>
+							<img src="images/redgem.svg" alt="" id="blue" class="crystalButtons">
+							<img src="images/bluegem.svg" alt="" id="green" class="crystalButtons">
+							<img src="images/greengem.svg" alt="" id="red" class="crystalButtons">
+							<img src="images/purplegem.svg" alt="" id="yellow" class="crystalButtons">
+							
+						</center>
+						</div> -->
+
+					<!-- First Crystal -->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="images/redgem.svg" alt="" id="blue" class="crystalButtons">
+					</div>
+
+					<!-- Second Crystal -->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="images/bluegem.svg" alt="" id="green" class="crystalButtons">
+					</div>
+
+					<!-- Third Crystal -->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="images/greengem.svg" alt="" id="red" class="crystalButtons">
+					</div>
+
+					<!-- Fourth Crystal -->
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<img src="images/purplegem.svg" alt="" id="yellow" class="crystalButtons">
+					</div>
+
+
+
+
+					</div>
+
+				</div>
+
+			</div> 
+			</div>
+			
+	
+
+
+		</div>
+
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+		<!-- Main Game Logic  -->
+		<script src="logic.js"></script>
+	</body>
+</html>
